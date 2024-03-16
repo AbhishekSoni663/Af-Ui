@@ -448,14 +448,44 @@
   .footer .container {
     min-width: 100% !important;
   }
+  .cr-detail{
+    min-height: 30vh !important;
+  }
+  .foot-icon {
+    width: 150px;
+  }
 }
 
 @media(max-width:834px) {
   .footer .container {
     min-width: 100% !important;
   }
-}
+  .cr-detail{
+    min-height: 30vh !important;
+  }
+  .fifth-text p{
+    font-size: 28px !important;
+  }
+  .foot-icon {
+    width: 150px;
+  }
 
+}
+@media(max-width:884px) {
+  .footer .container {
+    min-width: 100% !important;
+  }
+  .cr-detail{
+    min-height: 30vh !important;
+  }
+  .fifth-text p{
+    font-size: 28px !important;
+  }
+  .foot-icon {
+    width: 150px;
+  }
+
+}
 
 /* Fifth-Section */
 .fifth-bg {
@@ -498,6 +528,9 @@
     width: 85%;
     display: flex;
   }
+  .cr-detail{
+    min-height: 40vh !important;
+  }
   .fifth-bg {
     max-height: 400px !important;
     width: 100%;
@@ -510,6 +543,10 @@
     font-size: 20px !important;
     font-family: "Poppins", sans-serif;
   }
+  .foot-icon {
+    width: 150px;
+  }
+
 }
 @media(max-width:575px) {
   .fifth-text {
@@ -517,7 +554,13 @@
     width: 90%;
     display: flex;
   }
+  .foot-icon {
+    width: 150px;
+  }
 
+  .cr-detail{
+    min-height: 30vh !important;
+  }
   .fifth-bg {
     max-height: 323px !important;
     width: 100%;
@@ -575,4 +618,5 @@
 .footer a {
   font-family: "DM Sans", sans-serif;
   font-size: 20px;
+  font-weight: 400;
 }
