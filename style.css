@@ -15,6 +15,7 @@
   height: 748px;
   margin-top: 20px;
 }
+
 .cr-img img {
   width: 360px;
   height: 157px;
@@ -41,18 +42,20 @@
 }
 
 .cr-btn {
-  width: 466px;
-  height: 90px;
+  width: 380px;
+  /* height: 90px; */
+}
+
+.cr-btn button img {
+  width: 171px;
+  /* height: 69px; */
 }
 
 .cr-detail-text {
   height: 335px;
 }
 
-.cr-btn button img {
-  width: 200px;
-  height: 70px;
-}
+
 
 .cr-container {
   background: #0F0F1D;
@@ -62,9 +65,11 @@
   .cr-detail-text {
     height: 200px !important;
   }
-  .third-section{
+
+  .third-section {
     padding: 10px !important;
   }
+
   .carousel-item {
     background-size: 100% 133% !important;
     background-repeat: no-repeat !important;
@@ -87,9 +92,10 @@
     width: 250px !important;
     font-family: "Poppins", sans-serif;
   }
-.cr-detail{
-  margin-top: 30px !important;
-}
+
+  .cr-detail {
+    margin-top: 30px !important;
+  }
 }
 
 @media(max-width:991px) {
@@ -108,9 +114,11 @@
     background-position: 54% 3%;
     background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 0.8435749299719888) 0%, rgba(1, 9, 10, 0.8183648459383753) 99%), url(./img/ray1.png);
   }
-.cr-box-img img{
-  display: none;
-}
+
+  .cr-box-img img {
+    display: none;
+  }
+
   .cr-detail {
     min-height: 60vh;
 
@@ -122,32 +130,41 @@
     width: 120px;
     height: 40px;
   }
-  .f-p-1 h6{
+
+  .f-p-1 h6 {
     font-size: 12px !important;
   }
+
   .fourth-images {
     display: none !important;
-}
+  }
+
   .second-nav {
     display: block !important;
   }
-  .fourth-head-img2{
+
+  .fourth-head-img2 {
     padding-top: 10px;
   }
+
   .fourth-img-2 {
     display: none !important;
-}
-.n-f-h2 {
+  }
+
+  .n-f-h2 {
     text-align: center;
     font-size: 12px !important;
-}
-.fourth-box {
+  }
+
+  .fourth-box {
     display: none !important;
-}
-.fourth-box-2 {
+  }
+
+  .fourth-box-2 {
     display: block !important;
     padding: 5px;
-}
+  }
+
   .cr-btn {
     width: 280px;
     height: 90px;
@@ -159,62 +176,79 @@
 .second-nav {
   display: none;
 }
-.first-nav li ,.second-nav li {
+
+.first-nav li,
+.second-nav li {
   font-size: 20px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
-.navbar-brand img{
+
+.navbar-brand img {
   width: 70px;
 }
-.navbar{
+
+.navbar {
   background-color: #FBB034;
 }
-.offcanvas{
+
+.offcanvas {
   background-color: #FBB034 !important;
   width: 100% !important;
 }
+
 /* Third-section Css */
 .third-section {
   background: #0F0F1D;
   height: 100%;
   min-width: 100%;
 }
+
 @media(max-width:850px) {
   .third-box {
     min-width: 460px !important;
   }
+
   .third-box img {
     width: 50% !important;
   }
+
   .third-detail h2 {
     font-size: 29px !important;
     font-family: "Poppins", sans-serif;
   }
+
   .third-detail p {
-    font-size: 20px !important;
+    font-size: 17px !important;
     font-family: "Poppins", sans-serif;
   }
 }
+
 @media(max-width:475px) {
   .third-box {
     min-width: 260px !important;
   }
-.third-section{
-  padding: 10px !important;
-}
+
+  .third-section {
+    padding: 10px !important;
+  }
+
   .third-box img {
     width: 50% !important;
   }
 }
+
+.third-detail p {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+}
+
 .third-detail h2 {
   font-size: 42px;
   font-family: "Poppins", sans-serif;
+  color: #FBB034 !important;
 }
-.third-detail p {
-  font-size: 28px;
-  font-family: "Poppins", sans-serif;
-}
+
 /* Fourth-Section */
 .fourth-section {
   background: #DFC9F2;
@@ -237,27 +271,27 @@
   left: 169px;
   top: -238px;
 }
-@media(max-width:998px){
+@media(max-width:998px) {
   .fourth-images {
-      position: relative;
-      z-index: 1;
-      width: 85%;
-      left: 90px;
-      top: -238px;
+    position: relative;
+    z-index: 1;
+    width: 85%;
+    left: 90px;
+    top: -238px;
   }
   .fourth-img-2 {
-      position: relative;
-      z-index: 1;
-      left: 62px;
-      top: -135px;
-      width: 88% !important;
+    position: relative;
+    z-index: 1;
+    left: 62px;
+    top: -135px;
+    width: 88% !important;
   }
 }
 .f-img {
   width: 224.89px;
-  height: 274.55px;
-  padding: 20px 5px !important;
-  rotate: 16.96deg
+  height: 238.55px;
+  padding: 1px 3px !important;
+  rotate: 16.96deg;
 }
 .f-img img {
   width: 199.94px;
@@ -266,7 +300,7 @@
 }
 .f-img1 {
   width: 261.62px;
-  height: 256.64px;
+  height: 227.64px;
   background-color: white;
   rotate: -3.88deg;
 }
@@ -277,44 +311,45 @@
 }
 .f-img3 {
   width: 274.41px;
-  height: 217.8px;
+  height: 189.8px;
   rotate: -19.44deg;
 }
-.f-img3 img{
+.f-img3 img {
   width: 250.68px;
   height: 151.17px;
   object-fit: cover;
 }
 .f-img4 {
   width: 224.55px;
-  height: 274.42px;
+  height: 247.42px;
+  rotate: -16deg;
 }
-.f-img4 img{
+.f-img4 img {
   width: 199.4px;
   height: 200.94px !important;
   object-fit: cover;
 }
 .f-img5 {
   width: 226.95px;
-  height: 274.55px;
+  height: 244.55px;
   rotate: 19.66deg;
 }
-.f-img5 img{
+.f-img5 img {
   width: 199.94px;
   height: 200.94px;
-object-fit:cover;
+  object-fit: cover;
 }
 .fourth-img-2 {
   position: relative;
   z-index: 1;
-  left: 62px;
-  top: -135px;
+  left: 40px;
+  top: -159px;
   width: 88%;
 }
 .f-p-1 {
   background-color: white;
   max-width: 110px;
-  min-height: 155px;
+  min-height: 118px;
 }
 .fourth-box-2 {
   display: none;
@@ -324,189 +359,219 @@ object-fit:cover;
 }
 @media(max-width:975px) {
   .fourth-img-2 {
-      position: relative;
-      z-index: 1;
-      top: -124px;
-      left: 46px;
-      width: 85%;
+    position: relative;
+    z-index: 1;
+    top: -124px;
+    left: 46px;
+    width: 85%;
   }
- 
   .fourth-box-head h3 {
-      font-size: 22px;
-      font-family: "Playfair Display", serif;
+    font-size: 22px;
+    font-family: "Playfair Display", serif;
   }
   .fourth-images {
-      position: relative;
-      z-index: 1;
-      width: 80%;
-      left: 90px;
-      top: -204px;
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    left: 90px;
+    top: -204px;
   }
   .f-img {
-      width: 162.89px;
-      height: 190.55px;
+    width: 162.89px;
+    height: 190.55px;
   }
   .f-img img {
-      width: 148.94px;
-      height: 151.94px !important;
-      object-fit: cover;
+    width: 148.94px;
+    height: 151.94px !important;
+    object-fit: cover;
   }
   .f-img1 {
-      width: 172.37px;
-      height: 171.75px;
+    width: 172.37px;
+    height: 171.75px;
   }
   .f-img1 img {
-      width: 154.79px;
-      height: 133.03px;
-      object-fit: cover;
+    width: 154.79px;
+    height: 133.03px;
+    object-fit: cover;
   }
   .f-img5 {
-      width: 167.61px;
-      height: 201.01px;
+    width: 167.61px;
+    height: 201.01px;
   }
   .f-img5 img {
-      width: 152.94px;
-      height: 160.94px;
-      object-fit: cover;
+    width: 152.94px;
+    height: 160.94px;
+    object-fit: cover;
   }
   .f-img4 {
-      width: 172.61px;
-      height: 217.01px;
+    width: 172.61px;
+    height: 217.01px;
   }
   .f-img4 img {
-      width: 156.4px;
-      height: 163.94px !important;
-      object-fit: cover;
+    width: 156.4px;
+    height: 163.94px !important;
+    object-fit: cover;
   }
   .f-img3 {
-      width: 182.55px;
-      height: 160.42px;
+    width: 182.55px;
+    height: 160.42px;
   }
-  .f-img3 img{
-      width: 169px;
-      height: 116px;
-      object-fit: cover;
+  .f-img3 img {
+    width: 169px;
+    height: 116px;
+    object-fit: cover;
   }
 }
-.fifth-container{
-  background-size: 100% 100%;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
-}
-.fifth-bg{
-  min-height: 110vh;
-}
-.fifth-detail button{
-  width:320px;
-  height:60px;
-  padding: 5px;
-  font-family: "Poppins", sans-serif;
-  font-size: 17px;
-  font-weight: 500;
-  box-shadow: 4px 0px 8px 0px #fbb034b3 !important;
-}
-.fifth-detail{
-  min-height: 240px;
-}
-.fifth-detail p{
-  font-family: "Poppins", sans-serif;
-  font-size: 36px;
-  width: 96%;
-}
-@media(max-width:768px){
-  .fifth-detail p{
-    font-family: "Poppins", sans-serif;
-    font-size: 25px !important;
-    width: 96%;
-  }
-  .foot-box{
+@media(max-width:768px) {
+  .foot-box {
     margin-top: 5px;
   }
-  .foot-icon{
+
+  .foot-icon {
     margin-top: 8px;
   }
-  .footer .container{
+
+  .footer .container {
     min-width: 100% !important;
-  }
-  .fifth-detail button{
-    width:220px;
-    height:60px;
-    padding: 5px;
-    font-family: "Poppins", sans-serif;
-    font-size: 17px;
-    font-weight: 500;
   }
   .footer a {
     font-family: "DM Sans", sans-serif;
     font-size: 15px !important;
   }
-  .footer img{
-    width:56px;
+
+  .footer img {
+    width: 56px;
   }
-  .fifth-container {
-    background-size: 102% 100%;
-    background-position: 115% 108%;
-    background-repeat: no-repeat;
-    background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
-}
-.fifth-bg{
-  min-height: 60vh;
-}
-}
-@media(max-width:820px){
-  .fifth-container {
-    background-size: 102% 100%;
-    background-position: 115% 108%;
-    background-repeat: no-repeat;
-    background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
-}
-.fifth-bg{
-  min-height: 60vh;
-}
-.footer .container{
-  min-width: 100% !important;
-}
-}
-@media(max-width:834px){
-  .fifth-container {
-    background-size: 102% 100%;
-    background-position: 115% 108%;
-    background-repeat: no-repeat;
-    background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
-}
-.fifth-bg{
-  min-height: 60vh;
-}
-.footer .container{
-  min-width: 100% !important;
-}
 }
 
-@media(max-width:475px){
-  .fifth-detail p{
-    font-family: "Poppins", sans-serif;
-    font-size: 17px !important;
-    width: 96%;
+@media(max-width:820px) {
+  .footer .container {
+    min-width: 100% !important;
   }
-  .fifth-detail p{
-    padding-top: 20px !important;
+}
+
+@media(max-width:834px) {
+  .footer .container {
+    min-width: 100% !important;
   }
-  .fifth-container {
-    background-size: 203% 100%;
-    background-position: 44% 108%;
+}
+
+
+/* Fifth-Section */
+.fifth-bg {
+  height: 650px !important;
+  width: 100%;
+  background-position: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
+}
+.fifth-detail {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.fifth-text {
+  height: 500px;
+  width: 80%;
+  display: flex;
+}
+.fifth-text p {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+}
+.fifth-detail button {
+  width: 320px;
+  height: 60px;
+  font-size: 23px;
+  font-family: "Poppins", sans-serif;
+  box-shadow: -1px 1px 20px 0px #FFC95E;
+}
+@media(max-width:768px) {
+  .fifth-detail button {
+    max-width: 150px;
+    height: 37px;
+    font-size: 12px;
+  }
+  .fifth-text {
+    max-height: 328px;
+    width: 85%;
+    display: flex;
+  }
+  .fifth-bg {
+    max-height: 400px !important;
+    width: 100%;
+    background-position: auto;
     background-repeat: no-repeat;
+    background-size: 100% 100%;
     background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
+  }
+  .fifth-text p {
+    font-size: 20px !important;
+    font-family: "Poppins", sans-serif;
+  }
 }
-.fifth-bg{
-  height: 54vh;
+@media(max-width:575px) {
+  .fifth-text {
+    max-height: 263px;
+    width: 90%;
+    display: flex;
+  }
+
+  .fifth-bg {
+    max-height: 323px !important;
+    width: 100%;
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
+  }
+
+  .fifth-text p {
+    font-size: 16px !important;
+    font-family: "Poppins", sans-serif;
+  }
 }
-.fifth-detail{
-  margin-top: 20px;
-  padding-bottom: 10px !important;
+
+@media(max-width:340px) {
+  .fifth-text {
+    max-height: 202px;
+    width: 100%;
+    display: flex;
+  }
+
+  .foot-icon {
+    width: 150px;
+  }
+
+  .foot-icon i {
+    font-size: 12px !important;
+  }
+
+  .footer a {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+  }
+
+  .foot-box {
+    margin-top: 15px !important;
+  }
+
+  .fifth-bg {
+    max-height: 251px !important;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 119% 100%;
+    background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
+  }
+
+  .fifth-text p {
+    font-size: 14px !important;
+    font-family: "Poppins", sans-serif;
+  }
 }
-}
+
 .footer a {
   font-family: "DM Sans", sans-serif;
   font-size: 20px;
