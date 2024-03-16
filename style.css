@@ -486,7 +486,9 @@
   }
 
 }
-
+.offcanvas.offcanvas-start{
+  border: none !important;
+}
 /* Fifth-Section */
 .fifth-bg {
   height: 650px !important;
