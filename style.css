@@ -351,6 +351,15 @@
 .n-f-h2 {
   font-family: "Playfair Display", serif;
 }
+@media(max-width:1024px){
+  .fourth-images {
+    position: relative;
+    z-index: 1;
+    width: 85%;
+    left: 90px;
+    top: -238px;
+  }
+}
 @media(max-width:975px) {
   .fourth-img-2 {
     position: relative;
