@@ -449,6 +449,7 @@
 @media(max-width:884px) {
   .footer .container {
     min-width: 100% !important;
+    padding: 10px;
   }
   .fifth-text p {
     font-size: 28px !important;
