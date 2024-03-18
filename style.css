@@ -433,6 +433,9 @@
   .footer img {
     width: 56px;
   }
+  .n-f-h2{
+    width:131px;
+  }
 }
 
 @media(max-width:834px) {
@@ -555,6 +558,9 @@
     max-height: 202px;
     width: 100%;
     display: flex;
+  }
+  .n-f-h2{
+    width: 105px;
   }
   .foot-box{
     flex-direction: column;
