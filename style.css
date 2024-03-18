@@ -541,7 +541,6 @@
     background-size: 100% 100%;
     background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
   }
-  
   .fifth-text p {
     font-size: 16px !important;
     font-family: "Poppins", sans-serif;
@@ -577,6 +576,11 @@
   .fifth-text p {
     font-size: 14px !important;
     font-family: "Poppins", sans-serif;
+  }
+}
+@media(max-width:1200px){
+  .footer .container{
+    min-width: 100% !important;
   }
 }
 .footer a {
