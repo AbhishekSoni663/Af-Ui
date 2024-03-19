@@ -528,7 +528,7 @@ width: 97%;
 }
 .fifth-bg-img{
   height: 100% !important;
-  background-image: url(/img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
+  background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -567,7 +567,7 @@ width: 97%;
 @media(max-width:768px){
   .fifth-bg-img{
       height: 100% !important;
-      background-image: url(/img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
+      background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -604,7 +604,6 @@ width: 97%;
       height: 40px;
       font-size: 14px;
   }
-
 }
 @media(max-width:395px){
   .fifth-bg {
