@@ -35,9 +35,7 @@
   .cr-btn img {
     width: 140px;
   }
-  .cr-main-img {
-    width: 540px;
-  }
+ 
   .cr-main-img img {
     width: 100%;
     height: 100%;
@@ -163,7 +161,7 @@
 }
 .first-nav li,
 .second-nav li {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
 }
@@ -451,10 +449,12 @@
 }
 /* Fifth-Section */
 .fifth-bg {
-  height: 883px !important;
-  width: 100%;
-  background-position: auto;
+  height: 850px !important;
+  background-position: 100% 100%;
   background-repeat: no-repeat;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
   background-size: 100% 100%;
   background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
 }
@@ -464,8 +464,8 @@
   justify-content: center;
 }
 .fifth-text {
-  height: 720px;
-  width: 90%;
+  height: 690px;
+  width: 87%;
   display: flex;
 }
 .fifth-text p {
@@ -473,7 +473,7 @@
   font-family: "Poppins", sans-serif;
 }
 .fifth-detail button {
-  width: 320px;
+  width: 380px;
   height: 60px;
   font-size: 23px;
   font-family: "Poppins", sans-serif;
@@ -486,7 +486,7 @@
     font-size: 12px;
   }
   .fifth-text {
-    max-height: 328px;
+    max-height: 375px;
     width: 85%;
     display: flex;
   }
@@ -494,7 +494,7 @@
     margin: 4px 0px;
   }
   .fifth-bg {
-    max-height: 400px !important;
+    max-height: 450px !important;
     width: 100%;
     background-position: auto;
     background-repeat: no-repeat;
@@ -524,7 +524,7 @@
     display: flex;
   }
   .fifth-text p {
-    font-size: 28px !important;
+    font-size: 24px !important;
     font-family: "Poppins", sans-serif;
   }
 }
@@ -549,6 +549,9 @@
     font-size: 16px !important;
     font-family: "Poppins", sans-serif;
   }
+}
+.foot-last-icon{
+width: 91%;
 }
 @media(max-width:340px) {
   .fifth-text {
@@ -581,7 +584,7 @@
     background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
   }
   .fifth-text p {
-    font-size: 14px !important;
+    font-size: 12px !important;
     font-family: "Poppins", sans-serif;
   }
 }
@@ -590,17 +593,17 @@
     min-width: 100% !important;
   }
   .fifth-text {
-    height: 550px;
+    height: 503px;
     width: 90%;
     display: flex;
 }
 .fifth-bg {
-    height: 660px !important;
-    width: 100%;
-    background-position: auto;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
+  height: 609px !important;
+  width: 100%;
+  background-position: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
 }
 }
 .footer a {
