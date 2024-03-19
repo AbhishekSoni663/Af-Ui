@@ -159,9 +159,31 @@
 .second-nav {
   display: none;
 }
-.first-nav li,
-.second-nav li {
+@media(max-width:1454px){
+  .first-nav{
+width: 55% !important;
+margin-right: 70px;
+  }
+}
+@media(max-width:1280px){
+  .first-nav{
+width: 64% !important;
+margin-right: 60px;
+  }
+}
+@media(max-width:1105px){
+  .first-nav {
+    width: 75% !important;
+    margin-right: 8px;
+}
+}
+.first-nav li {
   font-size: 30px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.second-nav li {
+  font-size: 23px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
 }
@@ -250,7 +272,7 @@
   margin-top: 50px;
 }
 .fourth-box {
-  margin-bottom: -72px;
+  margin-bottom: -122px;
 }
 .fourth-box-head h3 {
   font-family: "Playfair Display", serif;
@@ -258,9 +280,18 @@
 .fourth-images {
   position: relative;
   z-index: 1;
-  width: 76%;
-  left: 169px;
+  width: 75%;
+  left: 189px;
   top: -238px;
+}
+@media(max-width:1200px){
+  .fourth-images {
+    position: relative;
+    z-index: 1;
+    width: 75%;
+    left: 189px;
+    top: -238px;
+  }
 }
 @media(max-width:998px) {
   .fourth-images {
@@ -314,6 +345,8 @@
   width: 217.55px;
   height: 247.42px;
   rotate: -16deg;
+  top: -27px;
+  position: relative;
 }
 .f-img4 img {
   width: 199.4px;
@@ -334,8 +367,9 @@
   position: relative;
   z-index: 1;
   left: 40px;
-  top: -159px;
+  top: -163px;
   width: 88%;
+  rotate: -1deg;
 }
 .f-p-1 {
   background-color: white;
@@ -361,7 +395,7 @@
   .fourth-img-2 {
     position: relative;
     z-index: 1;
-    top: -124px;
+    top: -147px;
     left: 46px;
     width: 85%;
   }
@@ -434,131 +468,15 @@
     width:131px;
   }
 }
-@media(max-width:834px) {
-  .fifth-text p {
-    font-size: 28px !important;
-  }
-}
-@media(max-width:884px) {
-  .fifth-text p {
-    font-size: 28px !important;
-  }
-}
 .offcanvas.offcanvas-start {
   border: none !important;
 }
-/* Fifth-Section */
-.fifth-bg {
-  height: 850px !important;
-  background-position: 100% 100%;
-  background-repeat: no-repeat;
-  -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-  background-size: 100% 100%;
-  background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
-}
-.fifth-detail {
-  display: flex;
-  align-items: end;
-  justify-content: center;
-}
-.fifth-text {
-  height: 690px;
-  width: 87%;
-  display: flex;
-}
-.fifth-text p {
-  font-size: 40px;
-  font-family: "Poppins", sans-serif;
-}
-.fifth-detail button {
-  width: 380px;
-  height: 60px;
-  font-size: 23px;
-  font-family: "Poppins", sans-serif;
-  box-shadow: -1px 1px 20px 0px #FFC95E;
-}
-@media(max-width:768px) {
-  .fifth-detail button {
-    max-width: 150px;
-    height: 37px;
-    font-size: 12px;
-  }
-  .fifth-text {
-    max-height: 375px;
-    width: 85%;
-    display: flex;
-  }
-  .foot-box a {
-    margin: 4px 0px;
-  }
-  .fifth-bg {
-    max-height: 450px !important;
-    width: 100%;
-    background-position: auto;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
-  }
-  .fifth-text p {
-    font-size: 20px !important;
-    font-family: "Poppins", sans-serif;
-  }
-  .foot-icon {
-    width: 150px;
-  }
-}
-@media(max-width:998px){
-  .fifth-bg {
-    height: 678px !important;
-    width: 100%;
-    background-position: auto;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
-}
-  .fifth-text {
-    height: 577px;
-    width: 100%;
-    display: flex;
-  }
-  .fifth-text p {
-    font-size: 24px !important;
-    font-family: "Poppins", sans-serif;
-  }
-}
-@media(max-width:575px) {
-  .fifth-text {
-    max-height: 263px;
-    width: 90%;
-    display: flex;
-  }
-  .foot-icon {
-    width: 150px;
-  }
-  .fifth-bg {
-    max-height: 323px !important;
-    width: 100%;
-    background-position: auto;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
-  }
-  .fifth-text p {
-    font-size: 16px !important;
-    font-family: "Poppins", sans-serif;
-  }
-}
+/*  */
 .foot-last-icon{
-width: 91%;
+width: 97%;
 }
 @media(max-width:340px) {
-  .fifth-text {
-    max-height: 202px;
-    width: 100%;
-    display: flex;
-  }
+
   .n-f-h2{
     width: 105px;
   }
@@ -575,39 +493,126 @@ width: 91%;
     font-size: 12px !important;
     font-weight: 500 !important;
   }
-  .fifth-bg {
-    max-height: 251px !important;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 119% 100%;
-    background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
-  }
-  .fifth-text p {
-    font-size: 12px !important;
-    font-family: "Poppins", sans-serif;
-  }
 }
 @media(max-width:1030px){
   .footer .container{
     min-width: 100% !important;
   }
-  .fifth-text {
-    height: 503px;
-    width: 90%;
-    display: flex;
-}
-.fifth-bg {
-  height: 609px !important;
-  width: 100%;
-  background-position: auto;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-image: url(./img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
-}
 }
 .footer a {
   font-family: "DM Sans", sans-serif;
   font-size: 20px;
   font-weight: 400;
+}
+
+/* Fifth-Section */
+.fifth-bg{
+  height: 1024px;
+  padding: 0px !important;
+}
+.fifth-text{
+  min-height:380px;
+  min-width: 100%;
+}
+.fifth-text p{
+  font-size: 43px;
+  width: 90%;
+  font-family: "Poppins", sans-serif;
+}
+.fifth-btn{
+  width: 390px;
+  height: 70px;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  box-shadow: -1px 1px 20px 0px #FFC95E;
+}
+.fifth-bg-img{
+  height: 100% !important;
+  background-image: url(/img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media(max-width:1030px){
+  .fifth-bg{
+      height: 730px !important;
+  }
+  .fifth-text p{
+      font-size: 34px;
+      width: 90%;
+      padding: 0px !important;
+  }
+}
+@media(max-width:1200px){
+  .fifth-bg{
+      height: 845px !important;
+  }
+  .fifth-text p{
+      font-size: 34px;
+      width: 90%;
+      padding: 0px !important;
+  }
+}
+@media(max-width:975px){
+  .fifth-bg {
+      height: 662px !important;
+  }
+  .fifth-text p{
+      font-size: 28px;
+      width: 95%;
+      padding: 0px !important;
+  }
+}
+@media(max-width:768px){
+  .fifth-bg-img{
+      height: 100% !important;
+      background-image: url(/img/smiling-young-male-barber-wearing-uniform-holding-scissors-looking-pointing-front-isolated-orange-wall-with-copy-space\ 1.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+  .fifth-text{
+      min-height:380px;
+  }
+  .fifth-btn{
+      width: 320px;
+      height: 50px;
+      font-size: 17px;
+  }
+  .fifth-text p{
+      font-size: 22px;
+      width: 98%;
+  }
+  .fifth-bg {
+      height: 574px !important;
+      padding: 0px;
+  }
+}
+@media(max-width:475px){
+  .fifth-bg {
+      height: 527px !important;
+      padding: 0px;
+  }
+  .fifth-text p{
+      font-size: 17px;
+      width: 95%;
+      padding: 0px !important;
+  }
+  .fifth-btn{
+      width: 230px;
+      height: 40px;
+      font-size: 14px;
+  }
+
+}
+@media(max-width:395px){
+  .fifth-bg {
+      height: 360px !important;
+      padding: 0px;
+  }
+  .fifth-text p{
+      font-size: 14px;
+      width: 95%;
+  }
 }
