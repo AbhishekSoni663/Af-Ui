@@ -366,7 +366,7 @@ margin-right: 60px;
 .fourth-img-2 {
   position: relative;
   z-index: 1;
-  left: 40px;
+  left: 66px;
   top: -163px;
   width: 88%;
   rotate: -1deg;
@@ -485,6 +485,7 @@ width: 97%;
   }
   .foot-icon {
     width: 150px;
+    margin-top: 5px;
   }
   .foot-icon i {
     font-size: 12px !important;
