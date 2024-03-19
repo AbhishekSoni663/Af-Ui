@@ -53,8 +53,8 @@
 @media(max-width:800px) {
   .carousel-item {
     background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 0.8435749299719888) 0%, rgba(1, 9, 10, 0.8183648459383753) 99%), url(./img/ray1.png);
-    background-position: 100% 1%;
-    background-size: 100% 128%;
+    background-position: top;
+    background-size: cover;
     background-repeat: no-repeat;
   }
   .cr-btn {
@@ -106,8 +106,8 @@
 @media(max-width:475px) {
   .carousel-item {
     background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 0.8435749299719888) 0%, rgba(1, 9, 10, 0.8183648459383753) 99%), url(./img/ray1.png);
-    background-position: 100% 51%;
-    background-size: 136% 105%;
+    background-position: right;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 }
@@ -190,12 +190,25 @@ margin-right: 60px;
 .navbar-brand img {
   width: 70px;
 }
+.offcanvas-body {
+  flex-grow: 1;
+  padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);
+  overflow-y: auto;
+  padding-top: 7px !important;
+}
 .navbar {
   background-color: #FBB034;
+}
+.offcanvas-header {
+  display: block !important;
+  align-items: center;
+  padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);
 }
 .offcanvas {
   background-color: #FBB034 !important;
   width: 100% !important;
+  display: flex;
+  flex-direction: row-reverse !important;
 }
 /* Third-section Css */
 .third-section {
@@ -300,6 +313,16 @@ margin-right: 60px;
     width: 85%;
     left: 90px;
     top: -238px;
+  }
+  .third-detail p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+  }
+  .third-detail h2 {
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    color: #FBB034 !important;
   }
   .fourth-img-2 {
     position: relative;
@@ -467,6 +490,7 @@ margin-right: 60px;
   .n-f-h2{
     width:131px;
   }
+  
 }
 .offcanvas.offcanvas-start {
   border: none !important;
@@ -493,6 +517,15 @@ width: 97%;
   .footer a {
     font-size: 12px !important;
     font-weight: 500 !important;
+  }
+}
+@media(max-width:590px){
+  .foot-icon {
+    width: 150px;
+    margin-top: 9px;
+  }
+  .fourth-section{
+    padding: 10px 0px;
   }
 }
 @media(max-width:1030px){
@@ -599,6 +632,10 @@ width: 97%;
       font-size: 17px;
       width: 95%;
       padding: 0px !important;
+  }
+  .foot-icon {
+    width: 150px;
+    margin-top: 8px !important;
   }
   .fifth-btn{
       width: 230px;
